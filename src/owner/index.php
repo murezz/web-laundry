@@ -1,5 +1,7 @@
 <?php
 
+$title = 'Dashboard | Owner';
+
 require '../layouts/header.php';
 
 require 'sidebar.php';

@@ -36,7 +36,7 @@
           <a class="nav-item nav-link active" href="">Home</a>
           <a class="nav-item nav-link active" href="#keunggulan">Keunggulan</a>
           <a class="nav-item nav-link active" href="#outlet">Buat Outlet</a>
-          <a class="btn btn-light ml-3" href="">Login Now !</a>
+          <a class="btn btn-light ml-3" href="src/member/login.php">Login Now !</a>
         </div>
       </div>
     </div>
@@ -54,7 +54,7 @@
             Laundry Express <span class="text-info text-lg"> murah, cepat, rapih dan wangi.</span>
             serta anda dapat membuat outlet laundry anda sendiri.
           </p>
-          <a href="" class="btn btn-info shadow" data-aos="zoom-in" data-aos-duration="800">Cuci sekarang</a>
+          <a href="src/member/login.php" class="btn btn-info shadow" data-aos="zoom-in" data-aos-duration="800">Cuci sekarang</a>
           <a href="" class="btn btn-outline-info ml-2" data-aos="zoom-in" data-aos-duration="900">Buat outlet</a>
         </div>
       </div>
@@ -189,7 +189,7 @@
           <a href="" class="navbar-brand text-gray-800">
             Developer
           </a>
-          <p>Muhammad Reza Aditya <br> - FullStack Dev'17</p>
+          <p>Muhammad Reza Aditya <br> - FullStack Dev'18</p>
         </div>
         <div class="col-4">
           <a href="" class="navbar-brand text-gray-800">Media Social</a>
