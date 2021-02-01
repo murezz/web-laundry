@@ -9,6 +9,9 @@
     <!-- bootstrap -->
     <link rel="stylesheet" href="../../assets/bootstrap/css/bootstrap.min.css">
 
+    <!-- aos -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <!-- font awesome -->
     <link href="../../assets/sb-admin/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
 
@@ -20,5 +23,3 @@
 </head>
 
 <body>
-
-    <div id="wrapper">

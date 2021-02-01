@@ -8,6 +8,7 @@ require '../../public/app.php';
 
 
 $result = mysqli_query($conn, "SELECT * FROM outlet ORDER BY id DESC LIMIT 1");
+
 $id1 = mysqli_query($conn, "SELECT * FROM outlet ORDER BY id DESC LIMIT 1");
 $id2 = mysqli_query($conn, "SELECT * FROM outlet ORDER BY id DESC LIMIT 1");
 $id3 = mysqli_query($conn, "SELECT * FROM outlet ORDER BY id DESC LIMIT 1");
