@@ -55,7 +55,7 @@
             serta anda dapat membuat outlet laundry anda sendiri.
           </p>
           <a href="src/member/login.php" class="btn btn-info shadow" data-aos="zoom-in" data-aos-duration="800">Cuci sekarang</a>
-          <a href="" class="btn btn-outline-info ml-2" data-aos="zoom-in" data-aos-duration="900">Buat outlet</a>
+          <a href="src/owner/addOutlet.php" class="btn btn-outline-info ml-2" data-aos="zoom-in" data-aos-duration="900">Buat outlet</a>
         </div>
       </div>
       <div class="col-6">

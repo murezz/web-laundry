@@ -20,3 +20,37 @@ function loginMember($data)
 
     return mysqli_affected_rows($conn);
 }
+
+function addOutlet($data)
+{
+
+    global $conn;
+
+    $nama = htmlspecialchars($data["nama"]);
+    $alamat = htmlspecialchars($data["alamat"]);
+    $tlp = htmlspecialchars($data["tlp"]);
+
+    $query = "INSERT INTO outlet VALUES ('', '$nama', '$alamat', '$tlp')";
+
+    mysqli_query($conn, $query);
+
+    return mysqli_affected_rows($conn);
+}
+
+function addUser($data)
+{
+
+    global $conn;
+
+    $nama = htmlspecialchars($data["nama"]);
+    $username = htmlspecialchars($data["username"]);
+    $password = htmlspecialchars($data["password"]);
+    $id_outlet = htmlspecialchars($data["id_outlet"]);
+    $role = htmlspecialchars($data["role"]);
+
+    $query = "INSERT INTO user VALUES ('', '$nama', '$username', '$password', '$id_outlet', '$role')";
+
+    mysqli_query($conn, $query);
+
+    return mysqli_affected_rows($conn);
+}
